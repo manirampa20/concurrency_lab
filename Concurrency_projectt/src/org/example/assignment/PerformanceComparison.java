@@ -1,4 +1,6 @@
-package org.example.assignment;
+package org.example.assignment;//package org.example.assignment;
+
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class PerformanceComparison {
 
     public static void main(String[] args) {
-        int numElements = 10000000;
+        int numElements = 1000000;
         int numThreads = 10;
 
         // Comparing HashMap with ConcurrentHashMap
@@ -87,3 +89,4 @@ public class PerformanceComparison {
         System.out.println("Time taken: " + duration + " ms");
     }
 }
+
